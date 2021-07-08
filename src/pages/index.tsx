@@ -75,7 +75,7 @@ const _Home: React.FC = () => {
   return data ? (
     <CalculatorContextProvider>
       <Helmet>
-        <title>Khala Crowdloan</title>
+        <title>Apron Crowdloan</title>
       </Helmet>
       <GlobalStyle></GlobalStyle>
       <Navbar />

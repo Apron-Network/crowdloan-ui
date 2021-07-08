@@ -56,7 +56,7 @@ const _MetaProvider: React.FC = ({ children }) => {
     }
   )
   const phaQuery = useQuery<GetPriceResponse>(
-    ['getPrice', { currency: 'PHA', refetchCount }],
+    ['getPrice', { currency: 'APRON', refetchCount }],
     {
       refetchInterval: 60 * 1000,
     }

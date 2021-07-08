@@ -143,7 +143,7 @@ const defaultChartOptions = {
     },
     {
       type: 'value',
-      name: 'PHA',
+      name: 'APN',
       splitLine: { show: false },
       axisPointer: { show: false },
       show: false,
@@ -159,7 +159,7 @@ const defaultChartOptions = {
       data: [],
     },
     {
-      name: 'PHA',
+      name: 'APN',
       type: 'line',
       itemStyle: { color: '#03FFFF' },
       showSymbol: false,
@@ -204,6 +204,7 @@ const PriceChartSection: React.FC = () => {
     <Section xs={24} md={12} lg={24} className="">
       <PriceChart>
         <div className="Amounts">
+        {/* 111 */}
           <div className="Amount Re">
             <div className="Title">
               <span>KSM</span>
@@ -272,7 +273,7 @@ const PriceChartSection: React.FC = () => {
           </div>
           <div className="Amount Yg">
             <div className="Title">
-              <span>PHA</span>
+              <span>APN</span>
               <TextTooltip
                 style={{ marginLeft: 5 }}
                 placement="bottom"
